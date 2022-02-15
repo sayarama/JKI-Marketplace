@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+    text-align: center;
+    background-image: url('../src/assets/people.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-size: 30px;
+    height: 90vh;
+    font-family: 'Poppins';
+}
+
+.header h1{
+    font-weight: 600;
+}
+
+.header p{
+    font-weight: 100;
+}
+
+
+.button{
+    border: 1px solid white;
+    color: white;
+    padding: 15px 32px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 0.5em;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: 'Poppins';
+}
+
+.content{
+    margin-top: 10%;
+    text-align: center;
+    height: 50vh;
+    font-family: 'Poppins';
+}
+
+.inner-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 80px;
+
+}
+
+.section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 900px;
+    margin: auto;
+    font-family: 'Poppins';
+
+}
+
+.imgLogo{
+    width: 50%;
+}
+
+.sectionChild{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 900px;
+    margin: auto;
+    margin-top: 15%;
+    font-family: 'Poppins';
+}
+
+.more{
+    padding: 8px;
+    background-color: rgb(71, 151, 255);
+    color: white;
+    font-size: 1em;
+    text-decoration: none;
+    border-radius: 3px;
+    font-family: 'Poppins';
+}
+
+.icon{
+    width: 50px;
+}
+
+.image p{
+    padding-top: 30px;
+}
+
+.kontak{
+    max-width: 900px;
+    margin: auto;
+    margin-top: 15%;
+    font-family: 'Poppins';
+}
+
+.kontak h2{
+    text-align: center;
+}
+
+
+.profile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 900px;
+    margin: auto;
+    margin-top: 10%;
+    font-family: 'Poppins';
+}
+
+.legalitas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 900px;
+    margin: auto;
+    margin-top: 10%;
+    font-family: 'Poppins';
+}
+
+.skill{
+    margin-top: 10%;
+}
+
+.skill h1, p{
+    font-family: 'Poppins';
+    text-align: center;
+}
+
+footer{
+    background-color: #333;
+    margin-top: 5%;
+    color: white;
+    text-align: center;
+    font-family: 'Poppins';
+}

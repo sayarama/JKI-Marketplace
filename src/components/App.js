@@ -8,10 +8,12 @@ import PrivateRoute from "./PrivateRoute";
 import ForgotPassword from "./ForgotPassword";
 import UpdateProfile from "./UpdateProfile";
 import Home from "./Home";
+import About from "./About";
+import Features from "./Features";
 
 function App() {
   return (
-    <div className="w-100" style={{ maxWidth: "400px" }}>
+    <div className="w-100" style={{ maxWidth: "100%" }}>
       <Router>
         <AuthProvider>
           <Switch>
@@ -20,11 +22,14 @@ function App() {
             <Route path="/home" component={Home} />
             <Route path="/signup" component={SignUp} />
             <Route path="/login" component={Login} />
+            <Route path="/about" component={About} />
+            <Route path="/features" component={Features} />
             <Route path="/forgot-password" component={ForgotPassword} />
           </Switch>
         </AuthProvider>
       </Router>
     </div>
+
   );
 }
 
