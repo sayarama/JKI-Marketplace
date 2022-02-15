@@ -27,6 +27,8 @@ export default function Login() {
 
   return (
     <>
+
+  
       <Container
         className="d-flex align-items-center justify-content-center"
         style={{
@@ -60,6 +62,7 @@ export default function Login() {
         <div>
           <div className="w-100 text-center mt-2">
             Need an account? <Link to="/signup">Sign Up</Link>
+            <p style={{textAlign:"center"}}>You can use random email to Sign Up</p>
           </div>
         </div>
       </Container>
