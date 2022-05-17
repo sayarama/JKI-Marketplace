@@ -1,7 +1,9 @@
+import React from "react";
 import { useRef, useState } from "react";
 import { Form, Button, Card, Alert, Container } from "react-bootstrap";
 import { useAuth } from "../context/AuthContext";
 import { Link, useHistory } from "react-router-dom";
+
 
 export default function Login() {
   const emailRef = useRef();
@@ -30,14 +32,14 @@ export default function Login() {
 
   
       <Container
-        className="d-flex align-items-center justify-content-center"
+        className=" login d-flex align-items-center justify-content-center"
         style={{
           minHeight: "100vh",
           flexDirection: "column",
-          minWidth: "100vw",
+          minWidth: "100vw"
         }}
       >
-        <Card style={{ width: "25%" }}>
+        <Card style={{ width: "20em"  }}>
           <Card.Body>
             <h2 className="text-center mb-4">Log In</h2>
             {error && <Alert variant="danger">{error}</Alert>}

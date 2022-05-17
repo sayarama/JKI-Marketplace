@@ -29,7 +29,7 @@ export default function Dashboard() {
           minWidth: "100vw",
         }}
       >
-        <Card style={{ width: "25%" }}>
+        <Card style={{ width: "25em" }}>
           <Card.Body>
             <h2 className="text-center mb-4">Profile</h2>
             {error && <Alert variant="danger">{error}</Alert>}

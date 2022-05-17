@@ -40,7 +40,7 @@ export default function SignUp() {
           minWidth: "100vw",
         }}
       >
-        <Card style={{ width: "25%" }}>
+        <Card style={{ width: "20em" }}>
           <Card.Body>
             <h2 className="text-center mb-4">Sign Up</h2>
             {error && <Alert variant="danger">{error}</Alert>}
